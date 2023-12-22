@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Palette</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .color-container {
+            position: relative;
+        }
+
+        .color-box {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .color-box:hover {
+            transform: scale(1.1);
+        }
+
+        .color-code {
+            font-size: 16px;
+            font-weight: bold;
+            color: #000;
+            text-align: center;
+        }
+
+        #color1 { background-color: #000000; }
+        #color2 { background-color: #0D0C0C; }
+        #color3 { background-color: #1761FD; }
+        #color4 { background-color: #468F25; }
+        #color5 { background-color: #FDA143; }
+        #color6 { background-color: #B2B4AD; }
+        #color7 { background-color: #88CCC8; }
+        #color8 { background-color: #A4AEBB; }
+        #color9 { background-color: #A9B0DF; }
+        #color10 { background-color: #E0C795; }
+        #color11 { background-color: #d2d2d2; }
+        #color12 { background-color: rgba(91,91,91,12%); }
+        #color13 { background-color: #4ECB71; }
+        #color14 { background-color: #1F8E76; }
+        #color15 { background-color: #03586A; }
+        #color16 { background-color: #BE0000; }
+        #color17 { background-color: #71AA58; }
+        #color18 { background-color: #64964E; }
+        #color19 { background-color: #194B02; }
+        #color20 { background-color: #468F25; }
+        #color21 { background-color: #306916; }
+        #color22 { background-color: #113600; }
+        #color23 { background-color: #0F2804; }
+    </style>
+</head>
+<body>
+    <div class="color-container">
+        <div class="color-box" id="color1"></div>
+        <div class="color-overlay">
+            <div class="color-code">#000000</div>
+        </div>
+    </div>
+
+    <div class="color-container">
+        <div class="color-box" id="color2"></div>
+        <div class="color-overlay">
+            <div class="color-code">#0D0C0C</div>
+        </div>
+    </div>
+
+    <div class="color-container">
+        <div class="color-box" id="color3"></div>
+        <div class="color-overlay">
+            <div class="color-code">#1761FD</div>
+        </div>
+    </div>
+
+    <div class="color-container">
+        <div class="color-box" id="color4"></div>
+        <div class="color-overlay">
+            <div class="color-code">#468F25</div>
+        </div>
+    </div>
+
+    <div class="color-container">
+        <div class="color-box" id="color5"></div>
+        <div class="color-overlay">
+            <div class="color-code">#FDA143</div>
+        </div>
+    </div>
+    <div class="color-container">
+        <div class="color-box" id="color6"></div>
+        <div class="color-overlay">
+            <div class="color-code">#B2B4AD</div>
+        </div>
+    </div>
+
+    <div class="color-container">
+        <div class="color-box" id="color7"></div>
+        <div class="color-overlay">
+            <div class="color-code">#88CCC8</div>
+        </div>
+    </div>
+
+    <div class="color-container">
+        <div class="color-box" id="color8"></div>
+        <div class="color-overlay">
+            <div class="color-code">#A4AEBB</div>
+        </div>
+    </div>
+
+    <div class="color-container">
+        <div class="color-box" id="color9"></div>
+        <div class="color-overlay">
+            <div class="color-code">#A9B0DF</div>
+        </div>
+    </div>
+
+    <div class="color-container">
+        <div class="color-box" id="color10"></div>
+        <div class="color-overlay">
+            <div class="color-code">#E0C795</div>
+        </div>
+    </div>
+    <div class="color-container">
+        <div class="color-box" id="color11"></div>
+        <div class="color-overlay">
+            <div class="color-code dark">#d2d2d2</div>
+        </div>
+    </div>
+
+    <div class="color-container">
+        <div class="color-box" id="color12"></div>
+        <div class="color-overlay">
+            <div class="color-code dark">rgba(91,91,91,12%)</div>
+        </div>
+    </div>
+
+    <div class="color-container">
+        <div class="color-box" id="color13"></div>
+        <div class="color-overlay">
+            <div class="color-code">#4ECB71</div>
+        </div>
+    </div>
+
+    <div class="color-container">
+        <div class="color-box" id="color14"></div>
+        <div class="color-overlay">
+            <div class="color-code">#1F8E76</div>
+        </div>
+    </div>
+
+    <div class="color-container">
+        <div class="color-box" id="color15"></div>
+        <div class="color-overlay">
+            <div class="color-code">#03586A</div>
+        </div>
+    </div>
+    <div class="color-container">
+        <div class="color-box" id="color16"></div>
+        <div class="color-overlay">
+            <div class="color-code">#BE0000</div>
+        </div>
+    </div>
+
+    <div class="color-container">
+        <div class="color-box" id="color17"></div>
+        <div class="color-overlay">
+            <div class="color-code">#71AA58</div>
+        </div>
+    </div>
+
+    <div class="color-container">
+        <div class="color-box" id="color18"></div>
+        <div class="color-overlay">
+            <div class="color-code">#64964E</div>
+        </div>
+    </div>
+
+    <div class="color-container">
+        <div class="color-box" id="color19"></div>
+        <div class="color-overlay">
+            <div class="color-code">#194B02</div>
+        </div>
+    </div>
+
+    <div class="color-container">
+        <div class="color-box" id="color20"></div>
+        <div class="color-overlay">
+            <div class="color-code">#468F25</div>
+        </div>
+    </div>
+    <div class="color-container">
+        <div class="color-box" id="color21"></div>
+        <div class="color-overlay">
+            <div class="color-code">#306916</div>
+        </div>
+    </div>
+
+    <div class="color-container">
+        <div class="color-box" id="color22"></div>
+        <div class="color-overlay">
+            <div class="color-code">#113600</div>
+        </div>
+    </div>
+
+    <div class="color-container">
+        <div class="color-box" id="color23"></div>
+        <div class="color-overlay">
+            <div class="color-code">#0F2804</div>
+        </div>
+    </div>
+</body>
+</html>
